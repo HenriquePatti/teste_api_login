@@ -1,0 +1,15 @@
+{
+  "name": "testes-api-login",
+  "version": "1.0.0",
+  "description": "Testes automatizados para API de login usando Mocha e SuperTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"rest/test/**/*.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "supertest": "^6.3.3"
+  }
+} 

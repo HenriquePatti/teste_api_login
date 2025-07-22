@@ -1,0 +1,7 @@
+{
+  "tentativas": [
+    { "username": "usuario1", "password": "errada1" },
+    { "username": "usuario1", "password": "errada2" },
+    { "username": "usuario1", "password": "errada3" }
+  ]
+} 
