@@ -4,12 +4,13 @@
   "description": "Testes automatizados para API de login usando Mocha e SuperTest",
   "main": "index.js",
   "scripts": {
-    "test": "mocha \"rest/test/**/*.js\""
+    "test": "mocha \"rest/test/**/*.js\"  --timeout=200000 --reporter mochawesome"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3",
     "supertest": "^6.3.3"
   }
-} 
+}
